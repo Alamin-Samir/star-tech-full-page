@@ -1,0 +1,70 @@
+.card {
+display:grid;
+grid-template-columns: repeat(4 1fr);
+ 
+  gap: 20px;           
+
+  padding: 20px;
+ 
+  
+  justify-content: space-between;
+
+}
+
+.blue1{
+
+
+grid-column-start: 1;
+
+grid-column-end: 2;
+
+}
+
+.blue2{
+
+
+grid-column-start: 2;
+
+grid-column-end: 3;
+
+}
+
+.blue3{
+
+
+grid-column-start: 3;
+
+grid-column-end: 4;
+
+}
+
+.blue4{
+
+
+grid-column-start: 4;
+
+grid-column-end: 5;
+
+}
+
+
+.red{
+    color: crimson;
+}
+
+
+.card2{
+
+display: flex;
+
+gap: 5px;
+justify-content: space-between;
+
+}
+
+
+
+.kit1{
+
+    margin-left: 10px;
+}
